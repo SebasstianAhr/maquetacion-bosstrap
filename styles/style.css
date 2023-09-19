@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px 0;
+    margin: 30px 0;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+    gap: 2rem;
+}
+
+.cont-menu{
+    text-decoration: none;
+    color: #555555;
+    font-size: 15px;
+}
+
+
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 150px 0;
+    gap: 3rem;
+}
+
+.text1{
+    font-size: 48px;
+}
+
+.text2{
+    margin-bottom: 50px;
+    color: #484848;
+    font-size: 24px;
+}
+
+.boton-get {
+    background-color: #3498db;
+    color: #fff;
+    justify-content: center;
+    height: 35px;
+    width: 95px;
+    padding: 8px 25px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.btn-get{
+font-size: 16px;
+letter-spacing: 1px;
+padding: 10px 30px;
+border-radius: 50px;
+color: #3498db;
+border: 2px solid #3498db;
+background-color: #fff;
+}
+
+.marcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background-color: #f3f9fd;
+    padding: 30px 0;
+}
+
+.img-clients{
+    width: 95px;
+    height: 40px;
+    filter: grayscale(100%);
+}
+
+
