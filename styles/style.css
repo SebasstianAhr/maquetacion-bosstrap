@@ -31,9 +31,17 @@
     font-size: 15px;
 }
 
-
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .principal{
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,6 +111,7 @@ background-color: #fff;
 }
 
 .container-abouts{
+    width: 100%;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -110,6 +119,8 @@ background-color: #fff;
 }
 
 .first{
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,12 +131,10 @@ background-color: #fff;
 }
 
 .text-left{
-    padding: 1rem 0 1rem 35rem;
     flex-wrap: wrap;
 }
 
 .text-right{
-    padding: 1rem 30rem 1rem 0;
     flex-wrap: wrap;
 }
 
