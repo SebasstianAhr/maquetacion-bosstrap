@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px 0 150px 0;
+    margin: 150px 0 200px 0;
     gap: 3rem;
 }
 
@@ -78,7 +78,7 @@ background-color: #fff;
     align-items: center;
     gap: 10rem;
     background-color: #f3f9fd;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .img-clients{
@@ -88,3 +88,83 @@ background-color: #fff;
 }
 
 
+/*ABOUT US*/
+
+.title-abouts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    color: #222222;
+    
+}
+
+.container-abouts{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    line-height: 2;
+    letter-spacing: 1px;
+   
+}
+
+.text-left{
+    padding: 1rem 0 1rem 35rem;
+    flex-wrap: wrap;
+}
+
+.text-right{
+    padding: 1rem 30rem 1rem 0;
+    flex-wrap: wrap;
+}
+
+.paragraph{
+    margin: 0 0 1rem 0;
+}
+
+/*SE CAMBIA EL COLOR DE LOS PUNTOS DE LAS LISTAS*/
+
+::marker{
+    color: #3498db;
+}
+
+.img-abouts {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 600px;
+    height: 600px;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 40px 0;
+}
+
+.icon-num{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 0 1rem 0;
+    gap: 10px;
+}
