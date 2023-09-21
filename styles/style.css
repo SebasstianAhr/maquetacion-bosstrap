@@ -17,7 +17,7 @@ header {
 
 .navbar {
   width: 100%;
-  max-width: 1320px;
+  max-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,6 +48,54 @@ header {
   transition: 0.3s;
 }
 
+/* MENU DESPLEGABLE*/
+
+header ul{
+  list-style: none;
+}
+
+header ul li{
+  position: relative;
+  float: left;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: #555555;
+  font-size: 15px;
+  padding: 20px;
+  display: block;
+}
+header ul li a:hover{
+  color: #3498db;
+  
+}
+header ul li ul{
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  display: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+header ul li ul li{
+  width: 100%;
+}
+header ul li ul li ul{
+  left: 200px;
+  top: 0;
+}
+
+header ul li:focus-within > ul, 
+header ul li:hover > ul{
+  display: initial;
+  
+}
+
+
+
+
+
 main {
   width: 100%;
   display: flex;
@@ -59,7 +107,7 @@ main {
 .principal {
   height: 65vh;
   width: 100%;
-  max-width: 1320px;
+  max-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,10 +128,12 @@ main {
 .boton-get {
   background-color: #3498db;
   color: #fff;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  height: 35px;
-  width: 95px;
-  padding: 8px 25px;
+  height: 40px;
+  width: 130px;
+  padding: 10px 10px;
   border-radius: 30px;
   margin-left: 30px;
 }
@@ -112,7 +162,7 @@ main {
 
 .imagen-principal {
   position: relative;
-  animation: arriba-abajo 2s ease-in infinite;
+  animation: arriba-abajo 3s ease-in infinite;
 }
 @keyframes arriba-abajo {
   0% {
@@ -135,7 +185,7 @@ main {
 }
 .marcas {
   width: 100%;
-  max-width: 1320px;
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
   gap: 2rem;
@@ -185,7 +235,7 @@ main {
 .container-abouts {
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1320px;
+  max-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,7 +269,7 @@ main {
 }
 
 .second {
-  max-width: 1320px;
+  max-width: 1300px;
   width: 100%;
   display: flex;
   justify-content: center;
